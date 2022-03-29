@@ -21,6 +21,13 @@ collections:
       - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Feature Image",name: "thumbnail",
+    widget: "image",
+    choose_url: true,
+    default: "/uploads/chocolate-dogecoin.jpg",
+    media_library:
+      config:
+        multiple: true}
   # Our pages e.g. About
   - name: "pages"
     label: "Page"
